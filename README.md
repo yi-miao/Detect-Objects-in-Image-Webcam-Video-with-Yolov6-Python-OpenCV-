@@ -37,11 +37,11 @@ copy your image files and video files to the directory of YOLOv6/data/images
 I use street.mp4 [Ref 3] as example
 - Step 6 - Modified the settings in the code (jupyter nb) 
 Some Examples:
--- source: test image and video files (yolov6: imnage1.jpg etc.)
--- indir: the directory with test files (yolov6: data/images)
--- outdir: the output files (yolov6: runs/inference/exp)
--- weights: model weight file
--- device: cpu, gpu etc.
+  source: test image and video files (yolov6: imnage1.jpg etc.)
+  indir: the directory with test files (yolov6: data/images)
+  outdir: the output files (yolov6: runs/inference/exp)
+  weights: model weight file
+  device: cpu, gpu etc.
 Step 7 - Run the scripts and check the results.
 
 - [Ref 1] https://github.com/meituan/YOLOv6
