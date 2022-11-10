@@ -28,12 +28,12 @@ cd YOLOv6
 pip install -r requirements.txt
 - Step 3 - Download Model weights [Ref 1]:  
 wget https://github.com/meituan/YOLOv6/releases/download/0.1.0/yolov6n.pt
-create a new directory cfg
+create a new directory cfg  
 move the weights file there, i.e. YOLOv6/cfg/yolov6n.pt 
 - Step 4 - Download imageInference.py (modified) [Ref 2]:  
 create a new directory yolov6_vc under YOLOv6, i.e. YOLOv6/yolov6_vc
 - Step 5 - Copy your test files  
-copy your image files and video files to the directory of YOLOv6/data/images
+copy your image files and video files to the directory of YOLOv6/data/images  
 I use street.mp4 [Ref 3] as example
 - Step 6 - Modified the settings in the code (jupyter nb) 
 Some Examples:  
