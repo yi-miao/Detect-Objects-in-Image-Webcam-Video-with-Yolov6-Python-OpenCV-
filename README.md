@@ -13,7 +13,7 @@ I share and report how I use Yolov6 to detect objects in image files,
 video files and webcam with different ways, some simple scripts from 
 Yolov6, some modified addressing my own interests.
 
-System Environment
+System Environments
 1. CPU only
 2. MS Windows 11
 3. Python 3.9.7
