@@ -21,28 +21,28 @@ System Environment
 4. Jupyter Notebook
 
 Instructions
-- Step 1 - Clone yolov6 at YOLOv6 [Ref 1]:
+- Step 1 - Clone yolov6 at YOLOv6 [Ref 1]:  
 git clone https://github.com/rkuo2000/YOLOv6
 cd YOLOv6
-- Step 2 - Install required packages [Ref 1]:
+- Step 2 - Install required packages [Ref 1]:  
 pip install -r requirements.txt
-- Step 3 - Download Model weights [Ref 1]:
+- Step 3 - Download Model weights [Ref 1]:  
 wget https://github.com/meituan/YOLOv6/releases/download/0.1.0/yolov6n.pt
 create a new directory cfg
 move the weights file there, i.e. YOLOv6/cfg/yolov6n.pt 
-- Step 4 - Download imageInference.py (modified) [Ref 2]:
+- Step 4 - Download imageInference.py (modified) [Ref 2]:  
 create a new directory yolov6_vc under YOLOv6, i.e. YOLOv6/yolov6_vc
-- Step 5 - Copy your test files 
+- Step 5 - Copy your test files  
 copy your image files and video files to the directory of YOLOv6/data/images
 I use street.mp4 [Ref 3] as example
 - Step 6 - Modified the settings in the code (jupyter nb) 
-Some Examples:__
-  source: test image and video files (yolov6: imnage1.jpg etc.)__
-  indir: the directory with test files (yolov6: data/images)__
-  outdir: the output files (yolov6: runs/inference/exp)__
-  weights: model weight file__
-  device: cpu, gpu etc.__
-Step 7 - Run the scripts and check the results.
+Some Examples:  
+  source: test image and video files (yolov6: imnage1.jpg etc.)  
+  indir: the directory with test files (yolov6: data/images)  
+  outdir: the output files (yolov6: runs/inference/exp)  
+  weights: model weight file  
+  device: cpu, gpu etc.  
+Step 7 - Run the scripts and check the results.  
 
 - [Ref 1] https://github.com/meituan/YOLOv6
 - [Ref 2] https://github.com/RATHOD-SHUBHAM/DeepLearning/tree/e203e7c4942fee6860e2c340ce0973663e73d4ca/Object%20Detection%20Using%20Yolov6/ObjDet_yolov6
