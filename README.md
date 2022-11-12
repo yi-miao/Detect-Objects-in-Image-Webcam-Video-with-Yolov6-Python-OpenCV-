@@ -2,13 +2,13 @@ Detect Objects in Image/Webcam/Video with Yolov6 (Python, OpenCV)
 
 Many years ago, I did my PhD research in London UK on Intelligent Agent, 
 a branch of AI, with the tools like prolog. With the inputs of facts and rules, 
-you run the inference engine and get the results. It sounds like "Stone Age" story.
+you kicked off inference engine and get the results. It sounds like "Stone Age" story.
 After working as consultant on Data Analysis in Financial Industry about 20 years, 
 I have chances to review some great tools developed in recent years like 
 Tensorflow, Keras and Yolo.
 
-I learned Yolov6 [Ref 1] and found it surprisingly improved comparing to 
-Yolov3 which played just in the early of this year 2022. In this project,
+I learned Yolov6 [Ref 1] and found it is significantly improved to 
+Yolov3 which I played just in the early of this year 2022. In this project,
 I share and report how I use Yolov6 to detect objects in image files,
 video files and webcam with different ways, some simple scripts from 
 Yolov6, some modified addressing my own interests.
