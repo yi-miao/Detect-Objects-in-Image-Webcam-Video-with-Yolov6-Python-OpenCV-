@@ -22,7 +22,7 @@ System Environments
 
 Instructions
 - Step 1 - Clone yolov6 at YOLOv6 [Ref 1]:  
-git clone https://github.com/rkuo2000/YOLOv6
+git clone https://github.com/rkuo2000/YOLOv6  
 cd YOLOv6
 - Step 2 - Install required packages [Ref 1]:  
 pip install -r requirements.txt
