@@ -44,6 +44,8 @@ Some Examples:
   device: cpu, gpu etc.  
 Step 7 - Run the scripts and check the results.  
 
+![Example](data/street.jpg)
+
 - [Ref 1] https://github.com/meituan/YOLOv6
 - [Ref 2] https://github.com/RATHOD-SHUBHAM/DeepLearning/tree/e203e7c4942fee6860e2c340ce0973663e73d4ca/Object%20Detection%20Using%20Yolov6/ObjDet_yolov6
 - [Ref 3] This is a free sample mp4 file downloaded from web, but I could not remember the URL. Many thanks to them to provide this video!
